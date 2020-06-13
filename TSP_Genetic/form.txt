@@ -1,0 +1,408 @@
+Renderer.1 {
+    backgroundcolor = #F5F5F5;
+    backgroundcolordisabled = #E6E6E6;
+    backgroundcolordown = #EBEBEB;
+    backgroundcolorhover = white;
+    bordercolor = #3C3C3C;
+    bordercolordisabled = #7D7D7D;
+    bordercolordown = black;
+    bordercolorfocused = #1E1EB4;
+    bordercolorhover = black;
+    borders = (1, 1, 1, 1);
+    textcolor = #3C3C3C;
+    textcolordisabled = #7D7D7D;
+    textcolordown = black;
+    textcolorhover = black;
+    texture = None;
+    texturedisabled = None;
+    texturedown = None;
+    texturefocused = None;
+    texturehover = None;
+}
+
+Renderer.2 {
+    backgroundcolor = #E6E6E6;
+    borderbelowtitlebar = 1;
+    bordercolor = black;
+    borders = (1, 1, 1, 1);
+    distancetoside = 3;
+    paddingbetweenbuttons = 1;
+    showtextontitlebuttons = true;
+    texturebackground = None;
+    texturetitlebar = None;
+    titlebarcolor = white;
+    titlecolor = #3C3C3C;
+
+    closebutton {
+        backgroundcolor = #F5F5F5;
+        backgroundcolordown = #EBEBEB;
+        backgroundcolorhover = white;
+        bordercolor = #3C3C3C;
+        bordercolordown = black;
+        bordercolorhover = black;
+        borders = (1, 1, 1, 1);
+        textcolor = #3C3C3C;
+        textcolordown = black;
+        textcolorhover = black;
+        texture = None;
+        texturedisabled = None;
+        texturedown = None;
+        texturefocused = None;
+        texturehover = None;
+    }
+}
+
+Renderer.3 {
+    backgroundcolor = #F5F5F5;
+    backgroundcolordisabled = #E6E6E6;
+    backgroundcolorhover = white;
+    bordercolor = #3C3C3C;
+    bordercolordisabled = #7D7D7D;
+    bordercolorhover = black;
+    borders = (1, 1, 1, 1);
+    caretcolor = black;
+    caretwidth = 1;
+    defaulttextcolor = #A0A0A0;
+    padding = (0, 0, 0, 0);
+    selectedtextbackgroundcolor = #006EFF;
+    selectedtextcolor = white;
+    textcolor = #3C3C3C;
+    textcolordisabled = #7D7D7D;
+    texture = None;
+    texturedisabled = None;
+    texturefocused = None;
+    texturehover = None;
+}
+
+Renderer.4 {
+    backgroundcolor = transparent;
+    bordercolor = #3C3C3C;
+    borders = (0, 0, 0, 0);
+    textcolor = #3C3C3C;
+    texturebackground = None;
+}
+
+Renderer.5 {
+    bordercolor = #3C3C3C;
+    bordercolorhover = black;
+    borders = (1, 1, 1, 1);
+    texturethumb = None;
+    texturethumbhover = None;
+    texturetrack = None;
+    texturetrackhover = None;
+    thumbcolor = #F5F5F5;
+    thumbcolorhover = white;
+    trackcolor = #F5F5F5;
+    trackcolorhover = white;
+}
+
+ChildWindow.child1 {
+    PositionLocked = true;
+    Size = (400, 300);
+    Title = CURRENT;
+    TitleAlignment = Center;
+    TitleButtons = None;
+    renderer = &2;
+}
+
+ChildWindow.child2 {
+    Position = (400, 0);
+    PositionLocked = true;
+    Size = (400, 300);
+    Title = BEST;
+    TitleAlignment = Center;
+    TitleButtons = None;
+    renderer = &2;
+}
+
+Slider.GenSize {
+    ChangeValueOnScroll = true;
+    InvertedDirection = false;
+    Maximum = 2500;
+    Minimum = 20;
+    Position = (300, 490);
+    Size = (200, 16);
+    Step = 20;
+    Value = 20;
+    Visible = false;
+    renderer = &5;
+}
+
+Button.Start {
+    Position = (300, 360);
+    Text = Start;
+    TextSize = 13;
+    renderer = &1;
+}
+
+Button.Stop {
+    Position = (450, 360);
+    Text = Stop;
+    TextSize = 13;
+    renderer = &1;
+}
+
+Button.Pause {
+    Position = (370, 360);
+    Text = Pause;
+    TextSize = 13;
+    renderer = &1;
+}
+
+Label.Gen_text {
+    AutoSize = true;
+    Position = (300, 460);
+    ScrollbarPolicy = Never;
+    Size = (108.2, 18);
+    Text = "Generation size:";
+    TextSize = 13;
+    Visible = false;
+    renderer = &4;
+}
+
+Slider.Mutation {
+    ChangeValueOnScroll = true;
+    InvertedDirection = false;
+    Maximum = 1;
+    Minimum = 0;
+    Position = (300, 560);
+    Size = (200, 16);
+    Step = 0.05;
+    Value = 0;
+    Visible = false;
+    renderer = &5;
+}
+
+Label.Mut_text {
+    AutoSize = true;
+    Position = (300, 530);
+    ScrollbarPolicy = Never;
+    Size = (113.2, 18);
+    Text = "Mutation chance:";
+    TextSize = 13;
+    Visible = false;
+    renderer = &4;
+}
+
+Slider.NB {
+    ChangeValueOnScroll = true;
+    InvertedDirection = false;
+    Maximum = 30;
+    Minimum = 2;
+    Position = (300, 420);
+    Size = (200, 16);
+    Step = 1;
+    Value = 2;
+    renderer = &5;
+}
+
+Label.NB_text {
+    AutoSize = true;
+    Position = (300, 390);
+    ScrollbarPolicy = Never;
+    Size = (115.2, 18);
+    Text = "Number of Cities:";
+    TextSize = 13;
+    renderer = &4;
+}
+
+Label.Type_text {
+    Position = (10, 390);
+    ScrollbarPolicy = Never;
+    Size = (267.2, 18);
+    Text = "Brute Force           Genetic Algorithm";
+    TextSize = 13;
+    renderer = &4;
+}
+
+Label.shortest {
+    AutoSize = true;
+    Position = (560, 340);
+    ScrollbarPolicy = Never;
+    Size = (122.2, 18);
+    Text = "Shortest Distance:";
+    TextSize = 13;
+    renderer = &4;
+}
+
+Label.best {
+    Position = (570, 380);
+    ScrollbarPolicy = Never;
+    Size = (187.2, 18);
+    Text = "Best Generation:";
+    TextSize = 13;
+    Visible = false;
+    renderer = &4;
+}
+
+Label.current {
+    AutoSize = true;
+    Position = (560, 420);
+    ScrollbarPolicy = Never;
+    Size = (131.2, 18);
+    Text = "Current Generation:";
+    TextSize = 13;
+    Visible = false;
+    renderer = &4;
+}
+
+Slider.Type {
+    ChangeValueOnScroll = true;
+    InvertedDirection = false;
+    Maximum = 1;
+    Minimum = 0;
+    Position = (60, 420);
+    Size = (120, 16);
+    Step = 1;
+    Value = 1;
+    renderer = &5;
+}
+
+Button.citygen {
+    Position = (10, 360);
+    Size = (107, 22);
+    Text = "Generate Cities";
+    TextSize = 13;
+    renderer = &1;
+}
+
+Slider.selection {
+    ChangeValueOnScroll = true;
+    InvertedDirection = false;
+    Maximum = 2;
+    Minimum = 0;
+    Position = (30, 490);
+    Size = (200, 16);
+    Step = 1;
+    Value = 0;
+    Visible = false;
+    renderer = &5;
+}
+
+Slider.crossover {
+    ChangeValueOnScroll = true;
+    InvertedDirection = false;
+    Maximum = 2;
+    Minimum = 0;
+    Position = (30, 560);
+    Size = (200, 16);
+    Step = 1;
+    Value = 0;
+    Visible = false;
+    renderer = &5;
+}
+
+Label.current_best {
+    AutoSize = true;
+    Position = (70, 330);
+    ScrollbarPolicy = Never;
+    Size = (92.2, 18);
+    Text = "Current Best: ";
+    TextSize = 13;
+    renderer = &4;
+}
+
+Label.selection_text {
+    AutoSize = true;
+    Position = (30, 460);
+    ScrollbarPolicy = Never;
+    Size = (199.2, 18);
+    Text = "Roullete Tournament Random ";
+    TextSize = 13;
+    Visible = false;
+    renderer = &4;
+}
+
+Label.crossover_text {
+    AutoSize = true;
+    Position = (30, 530);
+    ScrollbarPolicy = Never;
+    Size = (197.2, 18);
+    Text = "1 Point      2 Points      Uniform";
+    TextSize = 13;
+    Visible = false;
+    renderer = &4;
+}
+
+Button.input_button {
+    Position = (130, 360);
+    Size = (107, 22);
+    Text = "Input File";
+    TextSize = 13;
+    renderer = &1;
+}
+
+ChildWindow.open_window {
+    Enabled = false;
+    Position = (200, 120);
+    PositionLocked = true;
+    Size = (400, 300);
+    Title = "Open File";
+    TitleAlignment = Center;
+    TitleButtons = Close;
+    UserData = "";
+    Visible = false;
+    renderer = &2;
+
+    TextBox.file_text {
+        HorizontalScrollbarPolicy = Never;
+        MaximumCharacters = 0;
+        ReadOnly = true;
+        Size = (400, 205);
+        Text = "Specify the path to the input file below then click \"open\" button.\nAvailable formats of the input file: csv and txt.\nCheck sample.csv to see properly prepared input file.\n\t\t\t\t\t\t\t\t\t\t\t\tWARNING!\nWhen the input file contains distances between cities, the circle will be a graphic representation of those cities. Remember that the shortest path will not always be the perfect circle. \n ";
+        TextSize = 14;
+
+        Renderer {
+            backgroundcolor = white;
+            bordercolor = black;
+            borders = (1, 1, 1, 1);
+            caretcolor = black;
+            caretwidth = 1;
+            defaulttextcolor = #A0A0A0;
+            padding = (0, 0, 0, 0);
+            selectedtextbackgroundcolor = #006EFF;
+            selectedtextcolor = white;
+            textcolor = #3C3C3C;
+            texturebackground = None;
+        }
+    }
+
+    EditBox.path_box {
+        DefaultText = "write path here";
+        Position = (60, 210);
+        Size = (280, 22);
+        TextSize = 13;
+        renderer = &3;
+    }
+
+    Button.open_button {
+        Position = (160, 250);
+        Text = "Open File";
+        TextSize = 13;
+        renderer = &1;
+    }
+}
+
+EditBox.output_path {
+    Position = (560, 490);
+    Size = (230, 22);
+    TextSize = 13;
+    renderer = &3;
+}
+
+Button.output_button {
+    Position = (600, 530);
+    Size = (150, 22);
+    Text = "Generate Output";
+    TextSize = 13;
+    renderer = &1;
+}
+
+Label.output_txt {
+    Position = (610, 460);
+    ScrollbarPolicy = Never;
+    Size = (227.2, 18);
+    Text = "Output File Directory:";
+    TextSize = 13;
+    renderer = &4;
+}

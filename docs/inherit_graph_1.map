@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,84,159"/>
+<area shape="rect" id="node2" href="$class_cities_amount.html" title="Responsible for throwing a message when there is not enough data for declared number of cities." alt="" coords="132,5,232,32"/>
+<area shape="rect" id="node3" href="$class_file_input.html" title="Responsible for throwing a message when the data in the file is invalid." alt="" coords="147,56,217,83"/>
+<area shape="rect" id="node4" href="$class_file_open.html" title="Responsible for throwing a message when the file cannot be opened or created." alt="" coords="145,107,219,133"/>
+<area shape="rect" id="node5" href="$class_file_path.html" title="Responsible for throwing a message when the path of the file is invalid." alt="" coords="147,157,217,184"/>
+<area shape="rect" id="node6" href="$class_file_path_ext.html" title="Responsible for throwing a message when the path or extension of the file is invalid." alt="" coords="137,208,227,235"/>
+<area shape="rect" id="node7" href="$class_input_type.html" title="Responsible for throwing a message when the line informing about the input type of the file is incorr..." alt="" coords="143,259,221,285"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_crossover.html" title="Abstract class for crossover strategy interface." alt="" coords="5,56,84,83"/>
+<area shape="rect" id="node2" href="$class_single_point.html" title="Concrete crossover strategy class. Implements the Crossover strategy." alt="" coords="132,5,220,32"/>
+<area shape="rect" id="node3" href="$class_two_points.html" title="Concrete crossover strategy class. Implements the Crossover strategy." alt="" coords="135,56,217,83"/>
+<area shape="rect" id="node4" href="$class_uniform.html" title="Concrete crossover strategy class. Implements the Crossover strategy." alt="" coords="143,107,209,133"/>
+</map>

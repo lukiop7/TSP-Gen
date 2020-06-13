@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['backgroundcolordisabled_407',['backgroundcolordisabled',['../form_8txt.html#a8e24b44c40c083b7c35f0b3b1acccc11',1,'form.txt']]],
+  ['backgroundcolordown_408',['backgroundcolordown',['../form_8txt.html#a2981ebec500f975a197da00193926e36',1,'form.txt']]],
+  ['backgroundcolorhover_409',['backgroundcolorhover',['../form_8txt.html#af1dd53731e8d2e30add14fb03f0a8075',1,'form.txt']]],
+  ['best_410',['best',['../class_brute_force.html#a100eac53f0e2492fe135994a92cc160d',1,'BruteForce::best()'],['../class_generation.html#a8b46ff537da575b9bf820fbd67a68276',1,'Generation::best()'],['../class_g_u_i.html#aca56a5fcdeaffd904669e62cf31d774a',1,'GUI::best()'],['../form_8txt.html#a2e2c430e1b77c679f5538e52b8fe15c4',1,'best():&#160;form.txt']]],
+  ['best_5fcanvas_411',['best_canvas',['../class_g_u_i.html#a6fc889aaf45e2a582b507f4334d25fef',1,'GUI']]],
+  ['best_5fcurrent_412',['best_current',['../class_generation.html#a68bff5f3718c4b486ac0967b8c6148f8',1,'Generation']]],
+  ['best_5fpath_413',['best_path',['../class_brute_force.html#a1b6adef590902643e1d2b21e12205d36',1,'BruteForce::best_path()'],['../class_generation.html#a46251bf99dd9359c8461314af6b3b375',1,'Generation::best_path()'],['../class_genetic.html#a2a41da71e45b25f262ac07bcf8a00564',1,'Genetic::best_path()']]],
+  ['best_5fwindow_414',['best_window',['../class_g_u_i.html#a09356612be96c650818f3df7c27b2c0b',1,'GUI']]],
+  ['borderbelowtitlebar_415',['borderbelowtitlebar',['../form_8txt.html#addab91f56ee66073d32d6ccf838363da',1,'form.txt']]],
+  ['bordercolor_416',['bordercolor',['../form_8txt.html#a91f8115204a392eaee36e3f1da137eab',1,'form.txt']]],
+  ['bordercolordisabled_417',['bordercolordisabled',['../form_8txt.html#a251ab49a21501df882671d8b2f0a0a13',1,'form.txt']]],
+  ['bordercolordown_418',['bordercolordown',['../form_8txt.html#a28f7c36e7d1a857a70bb38117a8e2145',1,'form.txt']]],
+  ['bordercolorfocused_419',['bordercolorfocused',['../form_8txt.html#a962769ae967ab7b64ed0f42648561563',1,'form.txt']]],
+  ['bordercolorhover_420',['bordercolorhover',['../form_8txt.html#ac2813ab615b5eaa77d57d320aed16493',1,'form.txt']]],
+  ['borders_421',['borders',['../form_8txt.html#a13cc428dcb4e5c5a804563af8cf33f25',1,'form.txt']]],
+  ['brute_422',['brute',['../class_g_u_i.html#a30465c141c57755f2383081d83b5348e',1,'GUI']]]
+];

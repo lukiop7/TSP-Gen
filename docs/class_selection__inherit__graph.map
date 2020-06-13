@@ -1,0 +1,6 @@
+<map id="Selection" name="Selection">
+<area shape="rect" id="node1" title="Abstract class for selection strategy interface." alt="" coords="141,5,245,112"/>
+<area shape="rect" id="node2" href="$class_random.html" title="Concrete selection strategy class. Implements the Selection strategy." alt="" coords="5,160,104,281"/>
+<area shape="rect" id="node3" href="$class_route___wheel.html" title="Concrete selection strategy class. Implements the Selection strategy." alt="" coords="129,160,258,281"/>
+<area shape="rect" id="node4" href="$class_tournament.html" title="Concrete selection strategy class. Implements the Selection strategy." alt="" coords="282,160,401,281"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="TwoPoints" name="TwoPoints">
+<area shape="rect" id="node1" title="Concrete crossover strategy class. Implements the Crossover strategy." alt="" coords="5,160,116,296"/>
+<area shape="rect" id="node2" href="$class_crossover.html" title="Abstract class for crossover strategy interface." alt="" coords="7,5,114,112"/>
+</map>
