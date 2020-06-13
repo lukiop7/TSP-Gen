@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Selections">
+      <UniqueIdentifier>{5f660ddd-2bf3-4864-ba55-f33e336806af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Crossovers">
+      <UniqueIdentifier>{169dd68e-62bb-4d0b-a424-72a2a85929ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mutations">
+      <UniqueIdentifier>{b76338a5-5a2c-46b7-9fc2-942d61589440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fitness">
+      <UniqueIdentifier>{2ddc53d4-a727-4b6a-a443-3fbe56e59eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Path">
+      <UniqueIdentifier>{b7b6abd9-1c2f-4c0e-a626-097d95a1d6e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="City">
+      <UniqueIdentifier>{930f0179-feb4-43c1-a180-dda17030e009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Brute Force">
+      <UniqueIdentifier>{30a7fb90-318c-4432-8398-6f89ae5618d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generation">
+      <UniqueIdentifier>{8496e087-af39-4d83-85d0-2ce763f91728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Genetic">
+      <UniqueIdentifier>{11ee0b93-5700-407f-89cd-9a53a6444421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{f391341c-09b6-4563-8724-255c5013a5b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileIO">
+      <UniqueIdentifier>{93732680-90ac-4609-aea8-5b41d92f1012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exceptions">
+      <UniqueIdentifier>{bcaf9d36-9005-4990-af12-491fdf906267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{9e618216-861f-4ca2-a8d2-65cd942d128a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TSP_Genetic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteForce\BruteForce.cpp">
+      <Filter>Brute Force</Filter>
+    </ClCompile>
+    <ClCompile Include="City\City.cpp">
+      <Filter>City</Filter>
+    </ClCompile>
+    <ClCompile Include="Crossovers\Crossover.cpp">
+      <Filter>Crossovers</Filter>
+    </ClCompile>
+    <ClCompile Include="Crossovers\Two_Points.cpp">
+      <Filter>Crossovers</Filter>
+    </ClCompile>
+    <ClCompile Include="Crossovers\Uniform.cpp">
+      <Filter>Crossovers</Filter>
+    </ClCompile>
+    <ClCompile Include="Crossovers\Single_Point.cpp">
+      <Filter>Crossovers</Filter>
+    </ClCompile>
+    <ClCompile Include="FileIO\FileIO.cpp">
+      <Filter>FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Fitness\Fitness.cpp">
+      <Filter>Fitness</Filter>
+    </ClCompile>
+    <ClCompile Include="Generation\Generation.cpp">
+      <Filter>Generation</Filter>
+    </ClCompile>
+    <ClCompile Include="Genetic\Genetic.cpp">
+      <Filter>Genetic</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutation\Mutation.cpp">
+      <Filter>Mutations</Filter>
+    </ClCompile>
+    <ClCompile Include="Path\Path.cpp">
+      <Filter>Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Selections\Random.cpp">
+      <Filter>Selections</Filter>
+    </ClCompile>
+    <ClCompile Include="Selections\Route_Wheel.cpp">
+      <Filter>Selections</Filter>
+    </ClCompile>
+    <ClCompile Include="Selections\Selection.cpp">
+      <Filter>Selections</Filter>
+    </ClCompile>
+    <ClCompile Include="Selections\Tournament.cpp">
+      <Filter>Selections</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BruteForce\BruteForce.h">
+      <Filter>Brute Force</Filter>
+    </ClInclude>
+    <ClInclude Include="City\City.h">
+      <Filter>City</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossovers\Crossover.h">
+      <Filter>Crossovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossovers\Single_Point.h">
+      <Filter>Crossovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossovers\Two_Points.h">
+      <Filter>Crossovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossovers\Uniform.h">
+      <Filter>Crossovers</Filter>
+    </ClInclude>
+    <ClInclude Include="FileIO\FileIO.h">
+      <Filter>FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Fitness\Fitness.h">
+      <Filter>Fitness</Filter>
+    </ClInclude>
+    <ClInclude Include="Generation\Generation.h">
+      <Filter>Generation</Filter>
+    </ClInclude>
+    <ClInclude Include="Genetic\Genetic.h">
+      <Filter>Genetic</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Mutation\Mutation.h">
+      <Filter>Mutations</Filter>
+    </ClInclude>
+    <ClInclude Include="Path\Path.h">
+      <Filter>Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Selections\Random.h">
+      <Filter>Selections</Filter>
+    </ClInclude>
+    <ClInclude Include="Selections\Route_Wheel.h">
+      <Filter>Selections</Filter>
+    </ClInclude>
+    <ClInclude Include="Selections\Selection.h">
+      <Filter>Selections</Filter>
+    </ClInclude>
+    <ClInclude Include="Selections\Tournament.h">
+      <Filter>Selections</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions\exceptions.h">
+      <Filter>Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\helpers.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
